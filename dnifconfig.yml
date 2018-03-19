@@ -1,0 +1,2 @@
+enrichment_plugin:
+  SSLBL_IP_SOURCE: https://sslbl.abuse.ch/blacklist/sslipblacklist.csv
