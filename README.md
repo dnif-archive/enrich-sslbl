@@ -10,9 +10,6 @@ The CSV contains IP address and port number of malicious SSL hosts.
 
 For more information on this feed go to: https://sslbl.abuse.ch/blacklist/sslipblacklist.csv
 
-#### Contact Information
-contactme@abuse.ch 
-
 ### Using the SSLBL feeds API
  The SSLBL feeds API is found on github at
 
