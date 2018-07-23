@@ -10,6 +10,15 @@ The CSV contains IP address and port number of malicious SSL hosts.
 
 For more information on this feed go to: https://sslbl.abuse.ch/blacklist/sslipblacklist.csv
 
+ 
+ ### PRE-REQUISITES to use SSLBL IP feeds API and DNIF  
+Outbound access required to request SSLBL IP feeds API
+
+| Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
+|:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
+| TCP | AD,A10 | Any | Egress	| github.com | 443 |
+| TCP | AD,A10 | Any | Egress	| sslbl.abuse.ch | 443 | 
+
 ### Using the SSLBL feeds API
  The SSLBL feeds API is found on github at
 
